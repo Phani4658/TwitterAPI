@@ -1,0 +1,17 @@
+POST http://localhost:3000/register/ HTTP/1.1
+Content-Type: application/json
+
+{"username":"Phani85","password":"212U1A3385"}
+
+###
+POST http://localhost:3000/login/ HTTP/1.1
+Content-Type: application/json 
+
+{"username":"narendramodi","password":"$2b$10$F/fLVmOjBnj0cj1y0tCS3uTJS6LCtLk1TaM5WqCVYC7ikMlIqY0re"}
+###
+GET http://localhost:3000/tweets/1/ HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY5ODE0NTE5fQ.Ilt5zNVsVNqwIlse3Ya__ixv_G3Emx8PmIRT-mMV3XQ
+
+###
+GET http://localhost:3000/tweets/2/replies/ HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY5ODE0NTE5fQ.Ilt5zNVsVNqwIlse3Ya__ixv_G3Emx8PmIRT-mMV3XQ
