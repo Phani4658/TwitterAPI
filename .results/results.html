@@ -1,0 +1,732 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 5,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 29,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 34,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1669816815232,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 5,
+      &quot;numPassingTests&quot;: 29,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1669816817654,
+        &quot;runtime&quot;: 1844,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1669816815810
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 140,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseAn Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 10,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;User already exists&#x27; as a response if the username already exists&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;User already exists&#x27; as a response if the username already exists&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseA user should not be created if the username already exists in database&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;A user should not be created if the username already exists in database&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;Password is too short&#x27; as a response if the registrant provides a password with less than 6 characters&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;Password is too short&#x27; as a response if the registrant provides a password with less than 6 characters&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 74,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;User created successfully&#x27; text as a response for a successful registration&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;User created successfully&#x27; text as a response for a successful registration&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 67,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe password should be encrypted before creating a user in the database&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The password should be encrypted before creating a user in the database&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe user should be created in the database upon the success of the request with path &#x27;/register/&#x27;&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The user should be created in the database upon the success of the request with path &#x27;/register/&#x27;&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 9,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;Invalid user&#x27; text as a response for an unregistered user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid user&#x27; text as a response for an unregistered user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 83,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;Invalid password&#x27; text as a response if the user provides an incorrect password&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid password&#x27; text as a response if the user provides an incorrect password&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_9&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 78,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;JWT Token&#x27; as a response if the user provides correct credentials&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;JWT Token&#x27; as a response if the user provides correct credentials&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_10&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/feed/&#x27; with invalid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/feed/&#x27; with invalid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_11&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 19,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;expected&quot;: [
+                  {
+                    &quot;username&quot;: &quot;SrBachchan&quot;,
+                    &quot;tweet&quot;: &quot;T 3859 - do something wonderful, people may imitate it ..&quot;,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:19&quot;
+                  },
+                  {
+                    &quot;username&quot;: &quot;narendramodi&quot;,
+                    &quot;tweet&quot;: &quot;Looking forward to a unique interaction with youngsters, their parents and teachers.&quot;,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                  },
+                  {
+                    &quot;username&quot;: &quot;narendramodi&quot;,
+                    &quot;tweet&quot;: &quot;On the way to the rally in Kanyakumari, caught a glimpse of the majestic Vivekananda Rock Memorial and the grand Thiruvalluvar Statue.&quot;,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                  },
+                  {
+                    &quot;username&quot;: &quot;JoeBiden&quot;,
+                    &quot;tweet&quot;: &quot;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&quot;,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                  }
+                ],
+                &quot;actual&quot;: [
+                  {
+                    &quot;username&quot;: &quot;SrBachchan&quot;,
+                    &quot;tweet&quot;: &quot;T 3859 - do something wonderful, people may imitate it ..&quot;,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:19&quot;
+                  },
+                  {
+                    &quot;username&quot;: &quot;SrBachchan&quot;,
+                    &quot;tweet&quot;: &quot;T 3859 - do something wonderful, people may imitate it ..&quot;,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:19&quot;
+                  },
+                  {
+                    &quot;username&quot;: &quot;JoeBiden&quot;,
+                    &quot;tweet&quot;: &quot;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&quot;,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                  },
+                  {
+                    &quot;username&quot;: &quot;JoeBiden&quot;,
+                    &quot;tweet&quot;: &quot;The American Jobs Plan is the largest American jobs investment since World War II.&quot;,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                  }
+                ],
+                &quot;showDiff&quot;: true
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected [\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;narendramodi&#x27;,\n    tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;narendramodi&#x27;,\n    tweet: &#x27;On the way to the rally in Kanyakumari, caught a glimpse of the majestic Vivekananda Rock Memorial and the grand Thiruvalluvar Statue.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n] response body, got [\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;The American Jobs Plan is the largest American jobs investment since World War II.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n]&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected [\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;narendramodi&#x27;,\n    tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;narendramodi&#x27;,\n    tweet: &#x27;On the way to the rally in Kanyakumari, caught a glimpse of the majestic Vivekananda Rock Memorial and the grand Thiruvalluvar Statue.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n] response body, got [\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;The American Jobs Plan is the largest American jobs investment since World War II.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:197:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected [\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;narendramodi&#x27;,\n    tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;narendramodi&#x27;,\n    tweet: &#x27;On the way to the rally in Kanyakumari, caught a glimpse of the majestic Vivekananda Rock Memorial and the grand Thiruvalluvar Statue.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n] response body, got [\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;SrBachchan&#x27;,\n    tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:19&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    username: &#x27;JoeBiden&#x27;,\n    tweet: &#x27;The American Jobs Plan is the largest American jobs investment since World War II.&#x27;,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:197:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_12&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/following/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/following/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_13&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/following/&#x27; with valid JWT token should return the list of all names of people whom the user follows&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/following/&#x27; with valid JWT token should return the list of all names of people whom the user follows&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_14&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/followers/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/followers/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_15&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 5,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/followers/&#x27; with valid JWT token should return the list of all names of people who follows the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/followers/&#x27; with valid JWT token should return the list of all names of people who follows the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_16&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_17&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;expected&quot;: [
+                  {
+                    &quot;tweet&quot;: &quot;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&quot;,
+                    &quot;likes&quot;: 2,
+                    &quot;replies&quot;: 1,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                  },
+                  {
+                    &quot;tweet&quot;: &quot;Oel ngati kameie, Avatar fans.&quot;,
+                    &quot;likes&quot;: 3,
+                    &quot;replies&quot;: 1,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                  }
+                ],
+                &quot;actual&quot;: [
+                  {
+                    &quot;tweet&quot;: &quot;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&quot;,
+                    &quot;likes&quot;: 90,
+                    &quot;replies&quot;: 38,
+                    &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                  }
+                ],
+                &quot;showDiff&quot;: true
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected [\n  {\n    tweet: &#x27;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&#x27;,\n    likes: 2,\n    replies: 1,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    tweet: &#x27;Oel ngati kameie, Avatar fans.&#x27;,\n    likes: 3,\n    replies: 1,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n] response body, got [\n  {\n    tweet: &#x27;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&#x27;,\n    likes: 90,\n    replies: 38,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n]&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected [\n  {\n    tweet: &#x27;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&#x27;,\n    likes: 2,\n    replies: 1,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    tweet: &#x27;Oel ngati kameie, Avatar fans.&#x27;,\n    likes: 3,\n    replies: 1,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n] response body, got [\n  {\n    tweet: &#x27;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&#x27;,\n    likes: 90,\n    replies: 38,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:286:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected [\n  {\n    tweet: &#x27;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&#x27;,\n    likes: 2,\n    replies: 1,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  },\n  {\n    tweet: &#x27;Oel ngati kameie, Avatar fans.&#x27;,\n    likes: 3,\n    replies: 1,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n] response body, got [\n  {\n    tweet: &#x27;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&#x27;,\n    likes: 90,\n    replies: 38,\n    dateTime: &#x27;2021-04-07 14:50:15&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:286:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_18&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_19&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_20&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 9,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;expected&quot;: {
+                  &quot;tweet&quot;: &quot;Looking forward to a unique interaction with youngsters, their parents and teachers.&quot;,
+                  &quot;likes&quot;: 3,
+                  &quot;replies&quot;: 3,
+                  &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                },
+                &quot;actual&quot;: {
+                  &quot;tweet&quot;: &quot;Looking forward to a unique interaction with youngsters, their parents and teachers.&quot;,
+                  &quot;likes&quot;: 9,
+                  &quot;replies&quot;: 9,
+                  &quot;dateTime&quot;: &quot;2021-04-07 14:50:15&quot;
+                },
+                &quot;showDiff&quot;: true
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected {\n  tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n  likes: 3,\n  replies: 3,\n  dateTime: &#x27;2021-04-07 14:50:15&#x27;\n} response body, got {\n  tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n  likes: 9,\n  replies: 9,\n  dateTime: &#x27;2021-04-07 14:50:15&#x27;\n}&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected {\n  tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n  likes: 3,\n  replies: 3,\n  dateTime: &#x27;2021-04-07 14:50:15&#x27;\n} response body, got {\n  tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n  likes: 9,\n  replies: 9,\n  dateTime: &#x27;2021-04-07 14:50:15&#x27;\n}\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:333:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected {\n  tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n  likes: 3,\n  replies: 3,\n  dateTime: &#x27;2021-04-07 14:50:15&#x27;\n} response body, got {\n  tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n  likes: 9,\n  replies: 9,\n  dateTime: &#x27;2021-04-07 14:50:15&#x27;\n}\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:333:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_21&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_22&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_23&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 8,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;expected&quot;: {
+                  &quot;likes&quot;: [
+                    &quot;narendramodi&quot;,
+                    &quot;JimCameron&quot;
+                  ]
+                },
+                &quot;actual&quot;: {
+                  &quot;likes&quot;: [
+                    &quot;JoeBiden&quot;,
+                    &quot;JoeBiden&quot;
+                  ]
+                },
+                &quot;showDiff&quot;: true
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected { likes: [ &#x27;narendramodi&#x27;, &#x27;JimCameron&#x27; ] } response body, got { likes: [ &#x27;JoeBiden&#x27;, &#x27;JoeBiden&#x27; ] }&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected { likes: [ &#x27;narendramodi&#x27;, &#x27;JimCameron&#x27; ] } response body, got { likes: [ &#x27;JoeBiden&#x27;, &#x27;JoeBiden&#x27; ] }\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:372:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected { likes: [ &#x27;narendramodi&#x27;, &#x27;JimCameron&#x27; ] } response body, got { likes: [ &#x27;JoeBiden&#x27;, &#x27;JoeBiden&#x27; ] }\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:372:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_24&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 12,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_25&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_26&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;expected&quot;: {
+                  &quot;replies&quot;: [
+                    {
+                      &quot;name&quot;: &quot;Narendra Modi&quot;,
+                      &quot;reply&quot;: &quot;When you see it..&quot;
+                    },
+                    {
+                      &quot;name&quot;: &quot;Joe Biden&quot;,
+                      &quot;reply&quot;: &quot;A lot of people make the mistake of just hopping around on jobs a whole lot...&quot;
+                    }
+                  ]
+                },
+                &quot;actual&quot;: {
+                  &quot;replies&quot;: [
+                    {
+                      &quot;name&quot;: &quot;Narendra Modi&quot;,
+                      &quot;reply&quot;: &quot;When you see it..&quot;
+                    },
+                    {
+                      &quot;name&quot;: &quot;Narendra Modi&quot;,
+                      &quot;reply&quot;: &quot;A lot of people make the mistake of just hopping around on jobs a whole lot...&quot;
+                    }
+                  ]
+                },
+                &quot;showDiff&quot;: true
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected {\n  replies: [\n    { name: &#x27;Narendra Modi&#x27;, reply: &#x27;When you see it..&#x27; },\n    {\n      name: &#x27;Joe Biden&#x27;,\n      reply: &#x27;A lot of people make the mistake of just hopping around on jobs a whole lot...&#x27;\n    }\n  ]\n} response body, got {\n  replies: [\n    { name: &#x27;Narendra Modi&#x27;, reply: &#x27;When you see it..&#x27; },\n    {\n      name: &#x27;Narendra Modi&#x27;,\n      reply: &#x27;A lot of people make the mistake of just hopping around on jobs a whole lot...&#x27;\n    }\n  ]\n}&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected {\n  replies: [\n    { name: &#x27;Narendra Modi&#x27;, reply: &#x27;When you see it..&#x27; },\n    {\n      name: &#x27;Joe Biden&#x27;,\n      reply: &#x27;A lot of people make the mistake of just hopping around on jobs a whole lot...&#x27;\n    }\n  ]\n} response body, got {\n  replies: [\n    { name: &#x27;Narendra Modi&#x27;, reply: &#x27;When you see it..&#x27; },\n    {\n      name: &#x27;Narendra Modi&#x27;,\n      reply: &#x27;A lot of people make the mistake of just hopping around on jobs a whole lot...&#x27;\n    }\n  ]\n}\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:407:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected {\n  replies: [\n    { name: &#x27;Narendra Modi&#x27;, reply: &#x27;When you see it..&#x27; },\n    {\n      name: &#x27;Joe Biden&#x27;,\n      reply: &#x27;A lot of people make the mistake of just hopping around on jobs a whole lot...&#x27;\n    }\n  ]\n} response body, got {\n  replies: [\n    { name: &#x27;Narendra Modi&#x27;, reply: &#x27;When you see it..&#x27; },\n    {\n      name: &#x27;Narendra Modi&#x27;,\n      reply: &#x27;A lot of people make the mistake of just hopping around on jobs a whole lot...&#x27;\n    }\n  ]\n}\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:407:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at error (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_27&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 5,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_28&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return `Created a Tweet` text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The POST request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return `Created a Tweet` text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_29&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe database should be updated upon the successful post request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The database should be updated upon the successful post request&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_30&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 5,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_31&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId/&#x27; with valid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid Request&#x27; if the tweet doesn&#x27;t belong to the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId/&#x27; with valid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid Request&#x27; if the tweet doesn&#x27;t belong to the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_32&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 5,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId&#x27; with valid JWT token should return `Tweet Removed` text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId&#x27; with valid JWT token should return `Tweet Removed` text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_33&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe database should be updated upon the successful delete request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The database should be updated upon the successful delete request&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_34&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_12:::The GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows\n\n    expected [\n      {\n        username: &#x27;SrBachchan&#x27;,\n        tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n        dateTime: &#x27;2021-04-07 14:50:19&#x27;\n      },\n      {\n        username: &#x27;narendramodi&#x27;,\n        tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n        dateTime: &#x27;2021-04-07 14:50:15&#x27;\n      },\n      {\n        username: &#x27;narendramodi&#x27;,\n        tweet: &#x27;On the way to the rally in Kanyakumari, caught a glimpse of the majestic Vivekananda Rock Memorial and the grand Thiruvalluvar Statue.&#x27;,\n        dateTime: &#x27;2021-04-07 14:50:15&#x27;\n      },\n      {\n        username: &#x27;JoeBiden&#x27;,\n        tweet: &#x27;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&#x27;,\n        dateTime: &#x27;2021-04-07 14:50:15&#x27;\n      }\n    ] response body, got [\n      {\n        username: &#x27;SrBachchan&#x27;,\n        tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n        dateTime: &#x27;2021-04-07 14:50:19&#x27;\n      },\n      {\n        username: &#x27;SrBachchan&#x27;,\n        tweet: &#x27;T 3859 - do something wonderful, people may imitate it ..&#x27;,\n        dateTime: &#x27;2021-04-07 14:50:19&#x27;\n      },\n      {\n        username: &#x27;JoeBiden&#x27;,\n        tweet: &#x27;My Administration is working to get America vaccinated as quickly as possible. Tune in as I provide an update on our progress and the timeline moving forward.&#x27;,\n        dateTime: &#x27;2021-04-07 14:50:15&#x27;\n      },\n      {\n        username: &#x27;JoeBiden&#x27;,\n        tweet: &#x27;The American Jobs Plan is the largest American jobs investment since World War II.&#x27;,\n        dateTime: &#x27;2021-04-07 14:50:15&#x27;\n      }\n    ]\n\n      195 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      196 |       .expect(200)\n    &gt; 197 |       .expect([\n          |        ^\n      198 |         {\n      199 |           username: \&quot;SrBachchan\&quot;,\n      200 |           tweet: \&quot;T 3859 - do something wonderful, people may imitate it ..\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:197:8)\n      ----\n      at error (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n      at Test.Object.&lt;anonymous&gt;.Test._assertBody (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_18:::The GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user\n\n    expected [\n      {\n        tweet: &#x27;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&#x27;,\n        likes: 2,\n        replies: 1,\n        dateTime: &#x27;2021-04-07 14:50:15&#x27;\n      },\n      {\n        tweet: &#x27;Oel ngati kameie, Avatar fans.&#x27;,\n        likes: 3,\n        replies: 1,\n        dateTime: &#x27;2021-04-07 14:50:15&#x27;\n      }\n    ] response body, got [\n      {\n        tweet: &#x27;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.&#x27;,\n        likes: 90,\n        replies: 38,\n        dateTime: &#x27;2021-04-07 14:50:15&#x27;\n      }\n    ]\n\n      284 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      285 |       .expect(200)\n    &gt; 286 |       .expect([\n          |        ^\n      287 |         {\n      288 |           tweet:\n      289 |             \&quot;Oel ngati kameie, China! We are re excited to bring Avatar back to your big screens this weekend.\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:286:8)\n      ----\n      at error (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n      at Test.Object.&lt;anonymous&gt;.Test._assertBody (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_21:::The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet\n\n    expected {\n      tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n      likes: 3,\n      replies: 3,\n      dateTime: &#x27;2021-04-07 14:50:15&#x27;\n    } response body, got {\n      tweet: &#x27;Looking forward to a unique interaction with youngsters, their parents and teachers.&#x27;,\n      likes: 9,\n      replies: 9,\n      dateTime: &#x27;2021-04-07 14:50:15&#x27;\n    }\n\n      331 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      332 |       .expect(200)\n    &gt; 333 |       .expect({\n          |        ^\n      334 |         tweet:\n      335 |           \&quot;Looking forward to a unique interaction with youngsters, their parents and teachers.\&quot;,\n      336 |         likes: 3,\n\n      at Object.&lt;anonymous&gt; (index.test.js:333:8)\n      ----\n      at error (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n      at Test.Object.&lt;anonymous&gt;.Test._assertBody (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_24:::The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet\n\n    expected { likes: [ &#x27;narendramodi&#x27;, &#x27;JimCameron&#x27; ] } response body, got { likes: [ &#x27;JoeBiden&#x27;, &#x27;JoeBiden&#x27; ] }\n\n      370 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      371 |       .expect(200)\n    &gt; 372 |       .expect({\n          |        ^\n      373 |         likes: [\&quot;narendramodi\&quot;, \&quot;JimCameron\&quot;],\n      374 |       })\n      375 |       .then((error, response) =&gt; {\n\n      at Object.&lt;anonymous&gt; (index.test.js:372:8)\n      ----\n      at error (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n      at Test.Object.&lt;anonymous&gt;.Test._assertBody (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_27:::The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies\n\n    expected {\n      replies: [\n        { name: &#x27;Narendra Modi&#x27;, reply: &#x27;When you see it..&#x27; },\n        {\n          name: &#x27;Joe Biden&#x27;,\n          reply: &#x27;A lot of people make the mistake of just hopping around on jobs a whole lot...&#x27;\n        }\n      ]\n    } response body, got {\n      replies: [\n        { name: &#x27;Narendra Modi&#x27;, reply: &#x27;When you see it..&#x27; },\n        {\n          name: &#x27;Narendra Modi&#x27;,\n          reply: &#x27;A lot of people make the mistake of just hopping around on jobs a whole lot...&#x27;\n        }\n      ]\n    }\n\n      405 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      406 |       .expect(200)\n    &gt; 407 |       .expect({\n          |        ^\n      408 |         replies: [\n      409 |           {\n      410 |             name: \&quot;Narendra Modi\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:407:8)\n      ----\n      at error (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n      at Test.Object.&lt;anonymous&gt;.Test._assertBody (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
