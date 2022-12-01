@@ -112,19 +112,20 @@ const authenticate = (req, res, next) => {
 //Get Feed API - Mistake near query
 app.get("/user/tweets/feed/", authenticate, async (req, res) => {
   const userId = req.userId;
-  const getFollowingList = `
-  SELECT user_id FROM user JOIN follower ON user.user_id = follower.following_user_id WHERE follower.follower_user_id = ${userId};
-  `;
-  let followingList = await db.all(getFollowingList);
-  console.log(followingList);
-  const getLatestTweets = `
-    SELECT username,tweet,date_time as dateTime
-    FROM (follower JOIN tweet ON follower.following_user_id = tweet.user_id) AS following_tweet JOIN 
-    user ON user.user_id = following_tweet.user_id
-    WHERE following_user_id IN ( SELECT following_user_id FROM follower WHERE follower_user_id = ${userId})
-    ORDER BY dateTime DESC
-    LIMIT 4
-    `;
+  const tweetsQuery = `
+  SELECT 
+    user.username, tweet.tweet, tweet.date_time AS dateTime
+  FROM
+    follower
+  INNER JOIN tweet
+    ON follower.following_user_id = tweet.user_id
+  INNER JOIN user
+    ON tweet.user_id = user.user_id
+  WHERE 
+    follower.follower_user_id = ${userId}
+  ORDER BY 
+    tweet.date_time DESC
+  LIMIT 4;`;
   const latestTweets = await db.all(getLatestTweets);
   res.send(latestTweets);
 });
