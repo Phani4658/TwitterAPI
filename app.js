@@ -109,7 +109,7 @@ const authenticate = (req, res, next) => {
   }
 };
 
-//Get Feed API - Mistake near query
+//Get Feed API
 app.get("/user/tweets/feed/", authenticate, async (req, res) => {
   const userId = req.userId;
   const tweetsQuery = `
@@ -126,7 +126,7 @@ app.get("/user/tweets/feed/", authenticate, async (req, res) => {
   ORDER BY 
     tweet.date_time DESC
   LIMIT 4;`;
-  const latestTweets = await db.all(getLatestTweets);
+  const latestTweets = await db.all(tweetsQuery);
   res.send(latestTweets);
 });
 
